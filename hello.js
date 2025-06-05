@@ -18,3 +18,13 @@ if(fil %2==0){
 else{
     console.log("fill is odd")
 }
+const prompt = require('prompt-sync')();
+const name = prompt("What is your name? ");
+console.log("Hello, " + name + "!");
+ 
+const sq = function (x){
+    let ans = 0;
+    ans = x*x;
+    return ans;
+}
+console.log("the answer is: " + sq(12));
